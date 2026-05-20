@@ -15,23 +15,6 @@ Além disso, o projeto possui monitoramento de segurança por meio de um sensor 
 
 ---
 
-## 📖 Sumário
-
-- [Visão Geral](#visão-geral)
-- [Funcionamento do Sistema](#funcionamento-do-sistema)
-- [Senha e Entrada de Dados](#senha-e-entrada-de-dados)
-- [Sistema de Bloqueio](#sistema-de-bloqueio)
-- [Monitoramento de Segurança com LDR](#monitoramento-de-segurança-com-ldr)
-- [Interrupção de Reset](#interrupção-de-reset)
-- [Máquina de Estados](#máquina-de-estados)
-- [Componentes Utilizados](#componentes-utilizados)
-- [Mapeamento de Pinos](#mapeamento-de-pinos)
-- [Como Reproduzir](#como-reproduzir)
-- [Testes Realizados](#testes-realizados)
-- [Conclusão](#conclusão)
-
----
-
 ## 🔍 Visão Geral
 
 O sistema simula um **cofre inteligente** controlado por Arduino Uno.
