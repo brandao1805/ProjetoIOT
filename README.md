@@ -1,4 +1,4 @@
-# Locker Inteligente com Feedback Multissensorial
+# Locker Inteligente com Feedback Multissensorial 🔐
 
 Projeto final da disciplina **CCM520 – Internet das Coisas**, desenvolvido com Arduino Uno.
 
@@ -8,14 +8,14 @@ Além disso, o projeto possui monitoramento de segurança por meio de um sensor 
 
 ---
 
-## Integrantes
+## 👤 Integrantes
 
 - Lucas de Almeida Brandão - RA: 22.124.066-6
 - Henrique Gaiardoni Sant'Anna - RA: 22.124.009-6
 
 ---
 
-## Sumário
+## 📖 Sumário
 
 - [Visão Geral](#visão-geral)
 - [Funcionamento do Sistema](#funcionamento-do-sistema)
@@ -32,7 +32,7 @@ Além disso, o projeto possui monitoramento de segurança por meio de um sensor 
 
 ---
 
-## Visão Geral
+## 🔍 Visão Geral
 
 O sistema simula um **cofre inteligente** controlado por Arduino Uno.
 
@@ -57,7 +57,7 @@ Funcionalidades principais:
 
 ---
 
-## Funcionamento do Sistema
+## 🖥️ Funcionamento do Sistema
 
 ### Tela Inicial
 
@@ -72,7 +72,7 @@ Nesse estado, o cofre está fechado, os servos ficam na posição travada, os LE
 
 ---
 
-## Senha e Entrada de Dados
+## 🔒 Senha e Entrada de Dados
 
 A senha é composta por três dígitos. A senha correta configurada no código é:
 
@@ -101,7 +101,7 @@ Depois que os três números são digitados, o sistema entra no estado de valida
 
 ---
 
-## Senha Correta
+## 🔓 Senha Correta
 
 Quando a senha digitada é igual a `253`, o sistema libera o acesso.
 
@@ -155,7 +155,7 @@ O usuário pode tentar novamente até atingir o limite de três tentativas incor
 
 ---
 
-## Sistema de Bloqueio
+## 🚫 Sistema de Bloqueio
 
 O sistema possui bloqueio automático após **3 tentativas incorretas**.
 
@@ -186,7 +186,7 @@ Esse comportamento representa uma proteção contra múltiplas tentativas de ace
 
 ---
 
-## Monitoramento de Segurança com LDR
+## 🚨 Monitoramento de Segurança com LDR
 
 O projeto utiliza um sensor **LDR** para monitorar a presença de luz indevida no cofre.
 
@@ -218,7 +218,7 @@ O sistema também evita falso alerta: quando o cofre é aberto corretamente pela
 
 ---
 
-## Interrupção de Reset
+## ⚠️ Interrupção de Reset
 
 O projeto possui um botão de reset/emergência conectado ao pino 2 do Arduino Uno.
 
@@ -258,7 +258,7 @@ SISTEMA OK
 
 ---
 
-## Máquina de Estados
+## ⚙️ Máquina de Estados
 
 O código utiliza uma lógica baseada em estados para organizar o funcionamento do cofre.
 
@@ -317,7 +317,7 @@ RESET / EMERGÊNCIA
 
 ---
 
-## Componentes Utilizados
+## 🧩 Componentes Utilizados
 
 | Componente | Função |
 |---|---|
@@ -338,7 +338,7 @@ RESET / EMERGÊNCIA
 
 ---
 
-## Mapeamento de Pinos
+## 🗺️ Mapeamento de Pinos
 
 | Componente | Pino no Arduino |
 |---|---|
@@ -361,7 +361,7 @@ RESET / EMERGÊNCIA
 
 ---
 
-## Bibliotecas Utilizadas
+## 📚 Bibliotecas Utilizadas
 
 O projeto utiliza duas bibliotecas padrão da Arduino IDE:
 
@@ -376,7 +376,7 @@ A biblioteca `LiquidCrystal.h` é usada para controlar o display LCD 16x2.
 
 ---
 
-## Como Reproduzir
+## ▶️ Como Reproduzir
 
 ### Requisitos de Software
 
@@ -389,7 +389,7 @@ As bibliotecas utilizadas já são normalmente incluídas por padrão na Arduino
 
 ---
 
-### Passos
+### 👣 Passos
 
 1. Monte o circuito conforme o diagrama elétrico do projeto.
 2. Conecte o Arduino Uno ao computador.
@@ -415,9 +415,9 @@ Ferramentas > Porta
 
 ---
 
-## Como Usar
+## 🚀 Como Usar
 
-### Para abrir o cofre
+### 🔐 Para abrir o cofre
 
 1. Aguarde a mensagem `COFRE FECHADO`.
 2. Aperte o botão **Confirmar**.
@@ -429,7 +429,7 @@ Ferramentas > Porta
 
 ---
 
-### Para fechar o cofre
+### 🔒 Para fechar o cofre
 
 1. Após a mensagem `COFRE ABERTO`, pressione o botão **Fechar**.
 2. Os servos voltarão para a posição fechada.
@@ -437,7 +437,7 @@ Ferramentas > Porta
 
 ---
 
-### Para resetar o sistema
+### ⬅️ Para resetar o sistema
 
 1. Pressione o botão **Reset/Emergência**.
 2. O sistema fechará os servos.
@@ -447,7 +447,7 @@ Ferramentas > Porta
 
 ---
 
-## Testes Realizados
+## 🧪 Testes Realizados
 
 | Teste | Resultado Esperado | Resultado Obtido |
 |---|---|---|
@@ -462,7 +462,7 @@ Ferramentas > Porta
 
 ---
 
-## Explicação das Principais Funções
+## 🛠️ Explicação das Principais Funções
 
 ### `setup()`
 
@@ -524,7 +524,7 @@ Se o alerta estiver disparando com muita facilidade ou não estiver disparando, 
 
 ---
 
-## Conclusão
+## 🎬 Conclusão
 
 O projeto implementa um cofre inteligente com controle de acesso por senha e monitoramento de segurança.
 
